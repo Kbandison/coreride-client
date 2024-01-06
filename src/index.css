@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Site theme:
+  colors:
+    
+*/
+
 @layer base {
   h1 {
     @apply text-4xl font-bold;
@@ -27,7 +32,7 @@
     @apply text-base font-bold;
   }
 
-  /* button {
+  .btn {
     @apply px-4 py-2 text-gray-300 font-bold border rounded-xl my-4 cursor-pointer bg-gray-900 hover:bg-gray-700 hover:text-white ease-in-out duration-300;
-  } */
+  }
 }
