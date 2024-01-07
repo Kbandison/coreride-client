@@ -3,7 +3,7 @@ import React from "react";
 const Cars = () => {
   return (
     <div>
-      <h1>Second Page</h1>
+      <h1>Vehicles Page</h1>
     </div>
   );
 };

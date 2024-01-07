@@ -6,7 +6,7 @@ const navigation = [
   { name: "Dashboard", href: "/", current: true },
   { name: "Vehicles", href: "/vehicles", current: false },
   { name: "Locations", href: "#", current: false },
-  { name: "About Us", href: "#", current: false },
+  { name: "About Us", href: "/about-us", current: false },
 ];
 
 function classNames(...classes) {
@@ -15,10 +15,10 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="">
+    <Disclosure as="nav" className="w-full border-4">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-full px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -32,7 +32,7 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
